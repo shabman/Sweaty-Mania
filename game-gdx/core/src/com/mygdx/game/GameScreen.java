@@ -170,6 +170,6 @@ public class GameScreen implements Screen {
     public void dispose() {
         dropImage.dispose();
         bucketImage.dispose();
-        //game.dispose();
+        game.dispose();
     }
 }
